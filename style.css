@@ -89,3 +89,66 @@ footer {
   margin-top: 60px;
 }
 
+* About.html*
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+header {
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav a {
+  color: #ffffff;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover,
+nav a.active {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+}
+
+main {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.about-intro,
+.vision,
+.mission,
+.story {
+  margin-bottom: 40px;
+}
+
+h1, h2 {
+  color: #007bff;
+}
+
+p {
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 60px;
+}
