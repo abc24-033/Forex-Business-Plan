@@ -1,1 +1,41 @@
+*Index.html*
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+}
 
+header {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1rem;
+}
+
+nav a {
+  color: #007bff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 50px;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1rem;
+  margin-top: 50px;
+}
